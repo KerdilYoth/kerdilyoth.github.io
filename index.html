@@ -1,31 +1,55 @@
-<html>
-  <head>
-    <title>Kerdil Yoth's Projects</title>
-	<link rel="stylesheet" href="mystyle.css">
-  </head>
-  <body bgcolor="D5D4D4">
-  <div class="wrap">
-    <div class="floatleft">
-	
-		<center><img src="ProfilePic.jpg" class="circularProfile"><br>
-		<div class="bioHeader">Welcome to my portfolio!</div><br>
-		<div class="bioContent">This page holds various materials and projects created during my adventure with various game engines, editors and 3D modelling software.<br>
-		Newest upload:</br></div>
-		<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7094784886124773379?compact=1" height="280" width="500" frameborder="0" allowfullscreen="" title="Osadzona publikacja"></iframe>
-		
-		<div class="bioContact">You can contact me here:</br>
-		<a href="https://www.linkedin.com/in/bart%C5%82omiej-%C5%82obocki-0a312217a"><img src="LinkedIn.png" width="4%" height="4%"></a>
-		<a href=" "><img src="Facebook.png" width="4%" height="4%"></a>
-		<a href="mailto:kerdil.yoth@gmail.com"><img src="Gmail.png" width="4%" height="4%"></a>
-		</div>
-		</div>
-    <div class="floatright">
-	<div class="contentHeader"> Website Under Construction </div><br>
-	<div class="contentHeader2"> Content will arrive gradually </div><br>
-	<div class="loader"></div>
-		</div>
-    <div style="clear: both;">
-	</div>
-  </body>
-</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Kerdil Yoth's Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Projects</a></li>
+                <li class="dropdown">
+					<a href="javascript:void(0)" class="dropbtn">Contact &#9662;</a><div class="dropdown-content">
+						<a href="https://www.linkedin.com/in/bart%C5%82omiej-%C5%82obocki-0a312217a"><img src="LinkedIn.png" width="20%" height="20%"></a>
+						<a href="mailto:kerdil.yoth@gmail.com"><img src="Gmail.png" width="20%" height="20%"></a>
+					</div>
+				</li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <div class="container">
+            <img class="ProfilePic" src="ProfilePic.jpg" alt="Bartłomiej Łobocki" >
+            <h1>Bartłomiej Łobocki</h1>
+            <p>Aspiring Level Designer - Gamer at heart</p>
+			<br>
+            <p>QA Software Test Engineer, passionate about games. While working at Lionbridge I gained knowledge about different tools and approaches to testing both content and mechanics of the games.</p>
+			<p>I dreamed about making games since early childhood and even started writing my own RPG rulebooks. Right now I'm learning Unreal Engine 5, this page will host videos and links to materials created during this adventure.</p>
+        </div>
+    </section>
 
+    <section id="projects">
+        <div class="container">
+            <h2>Projects I worked on</h2>
+			<ul><a href="https://www.minecraft.net/en-us/credits"><b>Credits</b></a>
+            <li><p>QA tester for Minecraft Education Edition</p></li>
+			<li><p>STE for Minecraft Marketplace Content</p></li>
+			</ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Latest Upload</h2>
+			<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7094784886124773379?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Osadzona publikacja"></iframe><br>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
