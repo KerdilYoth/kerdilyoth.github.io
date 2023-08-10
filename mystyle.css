@@ -1,0 +1,98 @@
+.wrap {
+width: 100%;
+}
+
+.floatleft {
+    float:left; 
+    width: 30%;
+    background-image: url("ScrollBackground.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    height: 100%;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.floatright {
+float: right;
+    background-color: #ffffff;
+    height: 100%;
+    width: 70%;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.circularProfile {
+	border-radius: 50%;
+	width: auto;
+	height: 25%;
+	margin-top: 10%;
+}
+
+
+.bioHeader {
+	text-align: center;
+	margin-top: 5px;
+	font-size: 35;
+	font-family: "Papyrus";
+}
+
+.bioContent {
+	text-align: center;
+	margin-top: -15px;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 20;
+	font-family: "Papyrus";
+}
+
+.bioContact {
+	position: absolute;
+	bottom: 0;
+	margin-top: 2%;
+	margin-right: 5%;
+	padding-left: 9%;
+	font-size: 20;
+	font-family: "Papyrus";
+	text-align: left;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: auto;
+	background-color: red;
+	text-align: center;
+}
+
+.contentHeader {
+	text-align: center;
+	margin-top: 15%;
+	font-size: 35;
+	font-family: "Papyrus";
+}
+
+.contentHeader2 {
+	text-align: center;
+	margin-top: -15px;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 20;
+	font-family: "Papyrus";
+}
+
+.loader {
+	position: fixed;
+	left: 60%;
+	border: 16px solid #f3f3f3; /* Light grey */
+	border-top: 16px solid #3498db; /* Blue */
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
